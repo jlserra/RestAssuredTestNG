@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/jeanlexterserra/Desktop/RestAssuredTestNG/src/test/java/pojo/executables/E2ESpecbuilder.java">
+        <classes>
+            <class name="pojo.executables.E2ESpecbuilder">
+                <methods>
+                    <include name="login"/>
+                    <include name="createProduct"/>
+                    <include name="createOrder"/>
+                    <include name="deleteProduct"/>
+                    <include name="deleteOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
